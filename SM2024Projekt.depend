@@ -3481,7 +3481,7 @@
 	<iostream>
 	"SM2024HelperFunctions.h"
 
-1732020086 source:c:\systemymultimedialne\projektsm\sm2024keyfunctions.cpp
+1732623715 source:c:\systemymultimedialne\projektsm\sm2024keyfunctions.cpp
 	<iostream>
 	<fstream>
 	<algorithm>
@@ -3537,9 +3537,9 @@
 
 1731925371 c:\systemymultimedialne\projektsm\sm2024colorfiltering.h
 
-1732019523 c:\systemymultimedialne\projektsm\sm2024compression.h
+1732623672 c:\systemymultimedialne\projektsm\sm2024compression.h
 
-1732019557 source:c:\systemymultimedialne\projektsm\sm2024compression.cpp
+1732624595 source:c:\systemymultimedialne\projektsm\sm2024compression.cpp
 	"SM2024Compression.h"
 	"SM2024Variables.h"
 	<iostream>

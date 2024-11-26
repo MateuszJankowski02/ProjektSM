@@ -3,6 +3,6 @@
 
 void fileCompressionRLE(int inputArray[], int arraySize);
 
-void fileDecompressionRLE(int wejscie[], int dlugosc);
+void fileDecompressionRLE(int arraySize);
 
 #endif // SM2024COMPRESSION_H_INCLUDED

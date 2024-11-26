@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 
 using namespace std;
 
@@ -41,35 +42,45 @@ void fileCompressionRLE(int inputArray[], int arraySize){
             i+=j;
         }
     }
+    wyjscie.close();
 }
 
-int* fileDecompressionRLE(int wejscie[], int dlugosc){
+void fileDecompressionRLE(int arraySize){
+
     int i = 0;
-    while(i < dlugosc)
-    {
-        if(wejscie[i] > 0)
-        {
-            int j = wejscie[i];
+    int inputArray[arraySize];
+    ifstream wejscie("compression.rle", ios::binary);
+
+    for(int a = 0; a < arraySize; a++){
+        wejscie.read((char*)&inputArray[a], sizeof(Uint8));
+    }
+
+    for(int l = 0; l < 2000; l++){
+        cout << l << ": " << inputArray[l] << endl;
+    }
+
+    while(i < arraySize){
+
+        if(inputArray[i] > 0){
+            int j = inputArray[i];
             i++;
-            for(int k = 0; k < j; k++)
-            {
-                cout << wejscie[i] << ", ";
+
+            for(int k = 0; k < j; k++){
+                //cout << inputArray[i] << endl;
             }
             i++;
-        }
-        else if (wejscie[i] == 0)
-        {
+        }else if (inputArray[i] == 0){
             i++;
-            int j = wejscie[i];
+            int j = inputArray[i];
             i++;
-            for(int k = 0; k < j; k++)
-            {
-                cout << wejscie[i] << ", ";
+
+            for(int k = 0; k < j; k++){
+                //cout << inputArray[i] << endl;
                 i++;
             }
+
             if (j%2 != 0) i++;
         }
     }
-
-    return 1;
+    wejscie.close();
 }

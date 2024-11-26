@@ -56,6 +56,8 @@
 		<Unit filename="SM2024ColorModels.h" />
 		<Unit filename="SM2024ColorPalette.cpp" />
 		<Unit filename="SM2024ColorPalette.h" />
+		<Unit filename="SM2024Compression.cpp" />
+		<Unit filename="SM2024Compression.h" />
 		<Unit filename="SM2024CoreFunctions.cpp" />
 		<Unit filename="SM2024CoreFunctions.h" />
 		<Unit filename="SM2024Dithering.cpp" />

@@ -578,7 +578,7 @@ void FunkcjaI(){    // RGB565
 }
 
 void FunkcjaZ(){    // HSL
-    cout << "123";
+
     HSL hsl;
     for(int x = 0; x < szerokosc/2; x++){
         for(int y = 0; y < wysokosc/2; y++){
@@ -603,6 +603,6 @@ void FunkcjaC(){    // rle
 
     fileCompressionRLE(myArray, arraySize);
     cout << endl;
-    //fileDecompressionRLE(myArray2, 2);
+    fileDecompressionRLE(arraySize);
 
 }
