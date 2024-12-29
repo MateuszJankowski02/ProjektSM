@@ -1,8 +1,13 @@
 #include <iostream>
-
-#include "SM2024HelperFunctions.h"
+#include <fstream>
+#include <vector>
 
 using namespace std;
+
+#include "SM2024HelperFunctions.h"
+#include "SM2024KeyFunctions.h"
+#include "SM2024Variables.h"
+#include "SM2024CoreFunctions.h"
 
 int normalizacja(int wartosc, int minimum, int maximum){
 
@@ -58,3 +63,4 @@ int calculateHSLtoRGBMethod(float x){
     if ( (3.0 * x) < 2.0 ) return 3;
     return 4;
 }
+
