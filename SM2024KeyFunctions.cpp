@@ -596,7 +596,7 @@ void FunkcjaZ(){    // HSL
 }
 
 void FunkcjaX(){    // undersampling -> zapis obrazka uint8 po kompresji
-
+/*
     //tablica obrazek na uint8
     vector<uint8_t>tablica;
 
@@ -614,6 +614,74 @@ void FunkcjaX(){    // undersampling -> zapis obrazka uint8 po kompresji
     ByteRunKompresja(tablica.data(), tablica.size(), nazwaPlikuWyjsciowego);
 
     ByteRunDekompresjaIRysowanie(nazwaPlikuWyjsciowego);
+*/
+
+//LZW na szarym
+/*
+uint8_t tablica[wysokosc / 2 * szerokosc / 2];
+    int indeks = 0;
+
+    for (int j = 0; j < wysokosc / 2; j++) {
+        for (int i = 0; i < szerokosc / 2; i++) {
+            SDL_Color kolor = getPixel(i, j);
+            uint8_t szary = (kolor.r + kolor.g + kolor.b) / 3;
+            tablica[indeks++] = szary;
+        }
+    }
+
+    const char* nazwaPlikuWyjsciowego = "obrazek.lzw";
+    LZWKompresja(tablica, indeks, nazwaPlikuWyjsciowego);
+
+    uint8_t zdekompresowaneDane[wysokosc * szerokosc];
+    int dlugoscZdekompresowanych;
+    LZWDekompresja(nazwaPlikuWyjsciowego, zdekompresowaneDane, dlugoscZdekompresowanych);
+
+    indeks = 0;
+    for (int y = 0; y < wysokosc / 2; y++) {
+        for (int x = szerokosc / 2; x < szerokosc; x++) {
+            if (indeks < dlugoscZdekompresowanych) {
+                uint8_t szary = zdekompresowaneDane[indeks++];
+                setPixel(x, y, szary, szary, szary);
+            }
+        }
+    }
+
+    SDL_UpdateWindowSurface(window);
+
+    */
+        uint16_t tablica[wysokosc / 2 * szerokosc / 2];
+    int indeks = 0;
+
+    for (int j = 0; j < wysokosc / 2; j++) {
+        for (int i = 0; i < szerokosc / 2; i++) {
+            Uint16 kolor555 = getRGB555_(i, j);
+            tablica[indeks++] = kolor555;
+        }
+    }
+
+    const char* nazwaPlikuWyjsciowego = "obrazek.lzw555";
+    LZWKompresja555(tablica, indeks, nazwaPlikuWyjsciowego);
+
+    uint16_t zdekompresowaneDane[wysokosc * szerokosc];
+    int dlugoscZdekompresowanych;
+    LZWDekompresja555(nazwaPlikuWyjsciowego, zdekompresowaneDane, dlugoscZdekompresowanych);
+
+    indeks = 0;
+    for (int y = 0; y < wysokosc / 2; y++) {
+        for (int x = szerokosc / 2; x < szerokosc; x++) {
+            if (indeks < dlugoscZdekompresowanych) {
+                Uint16 kolor555 = zdekompresowaneDane[indeks++];
+                Uint8 r = (kolor555 >> 10) << 3;
+                Uint8 g = ((kolor555 >> 5) & 0x1F) << 3;
+                Uint8 b = (kolor555 & 0x1F) << 3;
+                setRGB555(x, y, r, g, b);
+            }
+        }
+    }
+
+    SDL_UpdateWindowSurface(window);
+
+
 
 }
 
