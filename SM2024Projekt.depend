@@ -3995,21 +3995,24 @@
 1735499144 g:\github\projektsm\sm2024colorpalette.h
 	<SDL2/SDL.h>
 
-1735500923 source:g:\github\projektsm\sm2024compression.cpp
+1737316484 source:g:\github\projektsm\sm2024compression.cpp
 	"SM2024Compression.h"
 	"SM2024Variables.h"
 	<iostream>
 	<fstream>
 	<vector>
+	<map>
+	<string>
+	<cstdint>
 	"SM2024HelperFunctions.h"
 	"SM2024KeyFunctions.h"
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
 
-1735500889 g:\github\projektsm\sm2024compression.h
+1737316432 g:\github\projektsm\sm2024compression.h
 	<SDL2/SDL.h>
 
-1735499144 source:g:\github\projektsm\sm2024corefunctions.cpp
+1737311014 source:g:\github\projektsm\sm2024corefunctions.cpp
 	<iostream>
 	"SM2024CoreFunctions.h"
 	"SM2024Variables.h"
@@ -4049,7 +4052,7 @@
 1735499144 source:g:\github\projektsm\sm2024variables.cpp
 	"SM2024Variables.h"
 
-1735500727 source:g:\github\projektsm\sm2024helperfunctions.cpp
+1737300769 source:g:\github\projektsm\sm2024helperfunctions.cpp
 	<iostream>
 	<fstream>
 	<vector>
@@ -4058,7 +4061,7 @@
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
 
-1735500643 source:g:\github\projektsm\sm2024keyfunctions.cpp
+1737316449 source:g:\github\projektsm\sm2024keyfunctions.cpp
 	<iostream>
 	<fstream>
 	<algorithm>
