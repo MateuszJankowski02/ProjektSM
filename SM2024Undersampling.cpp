@@ -71,35 +71,24 @@ void podprobkowanieYCbCr(int dx, int dy){
     }
 }
 
-void podprobkowanieYUV(int dx, int dy){
-    SDL_Color picked;
-    YUV transformed;
-    YUV cell[4];
-    int half_width = szerokosc/2;
+void podprobkowanieYUV(){
+    YUV yuv11, yuv12, yuv21, yuv22;
 
-    for (int i = 0; i < half_width-1; i++){
-        for (int j = 0; j < wysokosc/2-1; j++){
+    for(int x = 0; x < szerokosc/2; x += 2){
+        for(int y = 0; y < wysokosc/2; y += 2){
+            yuv11 = getYUV(x  , y  );
+            yuv12 = getYUV(x+1, y  );
+            yuv21 = getYUV(x  , y+1);
+            yuv22 = getYUV(x+1, y+1);
 
-                cell[0] = getYUV(i,j);
-                cell[1] = getYUV(i+1,j);
-                cell[2] = getYUV(i,j+1);
-                cell[3] = getYUV(i+1,j+1);
-            float sharedU = 0;
-            float sharedV = 0;
-            for (int c = 0; c < 4; c++){
-                sharedU += cell[c].u;
-                sharedV += cell[c].v;
-            }
-            sharedU /= 4.0;
-            sharedV /= 4.0;
-
-
-            setYUV(i+dx,j+dy, cell[0].y,sharedU,sharedV);
-            setYUV(i+dx+1,j+dy, cell[1].y,sharedU,sharedV);
-            setYUV(i+dx,j+dy+1, cell[2].y,sharedU,sharedV);
-            setYUV(i+dx+1,j+dy+1, cell[3].y,sharedU,sharedV);
+            setYUV(x,     y,     yuv11.y, yuv11.u, yuv11.v); // 11
+            setYUV(x + 1, y,     yuv12.y, yuv11.u, yuv11.v); // 12
+            setYUV(x,     y + 1, yuv21.y, yuv11.u, yuv11.v); // 21
+            setYUV(x + 1, y + 1, yuv22.y, yuv11.u, yuv11.v); // 22
         }
     }
+
+    SDL_UpdateWindowSurface(window);
 }
 
 void podprobkowanieHSL(int dx, int dy){

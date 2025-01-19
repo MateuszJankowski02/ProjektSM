@@ -94,6 +94,8 @@ int main(int argc, char* argv[]) {
                     FunkcjaX();
                 if (event.key.keysym.sym == SDLK_c)
                     FunkcjaC();
+                if (event.key.keysym.sym == SDLK_v)
+                    FunkcjaV();
                 if (event.key.keysym.sym == SDLK_a)
                     ladujBMP("obrazki/obrazek1.bmp", 0, 0);
                 if (event.key.keysym.sym == SDLK_o){

@@ -19,6 +19,7 @@
 #include "SM2024Undersampling.h"
 #include "SM2024ColorFiltering.h"
 #include "SM2024Compression.h"
+#include "SM2024DCT.h"
 
 using namespace std;
 
@@ -487,7 +488,7 @@ void FunkcjaE(){    // ODCZYT PLIKU Z11
             cout << "Nieprawidlowy tryb" << endl;
         }
     }else{
-        cout << "Nie wybrano ¿adnego trybu!" << endl;
+        cout << "Nie wybrano żI sadnego trybu!" << endl;
     }
     cout << "Odczyt z pliku\n";
     cout << "Id: " << identyfikator << endl;
@@ -618,6 +619,8 @@ void FunkcjaX(){    // undersampling -> zapis obrazka uint8 po kompresji
 }
 
 void FunkcjaC(){    // rle
+
+
     int arraySize = 64000;
     int myArray[arraySize];
 
@@ -627,4 +630,20 @@ void FunkcjaC(){    // rle
     cout << endl;
     fileDecompressionRLE(arraySize);
 
+}
+
+void FunkcjaV(){
+
+    podprobkowanieYUV();
+
+    SDL_UpdateWindowSurface(window);
+
+    kompresjaStratnaDCT();
+
+    SDL_UpdateWindowSurface(window);
+
+    zapisDCTDoPliku();
+    odczytDCTZPliku();
+
+    SDL_UpdateWindowSurface(window);
 }

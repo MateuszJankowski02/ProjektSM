@@ -3036,15 +3036,15 @@
 	"SM2024KeyFunctions.h"
 	"SM2024CoreFunctions.h"
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024bitconversion.cpp
+1731357012 source:c:\systemymultimedialne\projektsm\sm2024bitconversion.cpp
 	<math.h>
 	"SM2024BitConversion.h"
 	"SM2024CoreFunctions.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024bitconversion.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024bitconversion.h
 	<SDL2/SDL.h>
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -3082,12 +3082,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_main.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_stdinc.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -3119,29 +3119,29 @@
 	<stdio.h>
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_config.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 	<winsdkver.h>
 	<sdkddkver.h>
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_platform.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_platform.h
 	<AvailabilityMacros.h>
 	<TargetConditionals.h>
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\begin_code.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\begin_code.h
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\close_code.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\close_code.h
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_assert.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_assert.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_atomic.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -3149,7 +3149,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_audio.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -3159,12 +3159,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_error.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_endian.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<endian.h>
@@ -3173,13 +3173,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_mutex.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_thread.h
+1737304974 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -3190,18 +3190,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_rwops.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_clipboard.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_cpuinfo.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -3223,7 +3223,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_events.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -3237,7 +3237,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_video.h
+1737304974 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -3245,13 +3245,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_pixels.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_rect.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -3259,7 +3259,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_surface.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -3268,11 +3268,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_blendmode.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_keyboard.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -3280,21 +3280,21 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_keycode.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_scancode.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_mouse.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_joystick.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_guid.h"
@@ -3302,13 +3302,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_guid.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_guid.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_gamecontroller.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -3317,17 +3317,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_sensor.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_quit.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_gesture.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -3335,70 +3335,70 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_touch.h
+1737304974 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_filesystem.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_haptic.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_hidapi.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_hidapi.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_hints.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_loadso.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_log.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_messagebox.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_metal.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_power.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_render.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_shape.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -3407,7 +3407,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_system.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -3415,76 +3415,88 @@
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_timer.h
+1737304974 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_version.h
+1737304974 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_locale.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_locale.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1693556918 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_misc.h
+1731357012 c:\systemymultimedialne\projektsm\sdl2\include\sdl2\sdl_misc.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024corefunctions.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024corefunctions.h
 	<SDL2/SDL.h>
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024colormodels.cpp
+1731357012 source:c:\systemymultimedialne\projektsm\sm2024colormodels.cpp
 	<iostream>
 	<math.h>
 	"SM2024ColorModels.h"
 	"SM2024CoreFunctions.h"
 	"SM2024HelperFunctions.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024colormodels.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024colormodels.h
 	"SM2024Variables.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024variables.h
+1737317727 c:\systemymultimedialne\projektsm\sm2024variables.h
+	<SDL2/SDL.h>
+	<vector>
 	<SDL2/SDL.h>
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024helperfunctions.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024helperfunctions.h
 	<SDL2/SDL.h>
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024colorpalette.cpp
+1731357012 source:c:\systemymultimedialne\projektsm\sm2024colorpalette.cpp
 	<iostream>
 	"SM2024ColorPalette.h"
 	"SM2024Variables.h"
 	"SM2024HelperFunctions.h"
 	"SM2024CoreFunctions.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024colorpalette.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024colorpalette.h
 	<SDL2/SDL.h>
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024corefunctions.cpp
+1731357012 source:c:\systemymultimedialne\projektsm\sm2024corefunctions.cpp
 	<iostream>
 	"SM2024CoreFunctions.h"
 	"SM2024Variables.h"
 
-1731924214 source:c:\systemymultimedialne\projektsm\sm2024dithering.cpp
+1737304974 source:c:\systemymultimedialne\projektsm\sm2024dithering.cpp
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
 	"SM2024HelperFunctions.h"
 	"SM2024BitConversion.h"
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024helperfunctions.cpp
+1737304974 source:c:\systemymultimedialne\projektsm\sm2024helperfunctions.cpp
 	<iostream>
+	<fstream>
+	<vector>
 	"SM2024HelperFunctions.h"
+	"SM2024KeyFunctions.h"
+	"SM2024Variables.h"
+	"SM2024CoreFunctions.h"
 
-1732623715 source:c:\systemymultimedialne\projektsm\sm2024keyfunctions.cpp
+1737321527 source:c:\systemymultimedialne\projektsm\sm2024keyfunctions.cpp
 	<iostream>
 	<fstream>
 	<algorithm>
+	<vector>
+	"SM2024HelperFunctions.h"
+	"SM2024KeyFunctions.h"
+	"SM2024Variables.h"
+	"SM2024CoreFunctions.h"
 	"SM2024KeyFunctions.h"
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
@@ -3497,37 +3509,39 @@
 	"SM2024Undersampling.h"
 	"SM2024ColorFiltering.h"
 	"SM2024Compression.h"
+	"SM2024DCT.h"
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024keyfunctions.h
+1737307330 c:\systemymultimedialne\projektsm\sm2024keyfunctions.h
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024mediancut.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024mediancut.h
 	<SDL2/SDL.h>
 
-1731372858 c:\systemymultimedialne\projektsm\sm2024dithering.h
+1731357012 c:\systemymultimedialne\projektsm\sm2024dithering.h
 
-1731925708 c:\systemymultimedialne\projektsm\sm2024undersampling.h
+1737311186 c:\systemymultimedialne\projektsm\sm2024undersampling.h
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024main.cpp
+1737307319 source:c:\systemymultimedialne\projektsm\sm2024main.cpp
 	<iostream>
 	"SM2024Variables.h"
 	"SM2024KeyFunctions.h"
 	"SM2024CoreFunctions.h"
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024mediancut.cpp
+1731357012 source:c:\systemymultimedialne\projektsm\sm2024mediancut.cpp
 	<iostream>
 	<utility>
 	"SM2024MedianCut.h"
 	"SM2024Variables.h"
 	"SM2024ColorPalette.h"
 
-1731925382 source:c:\systemymultimedialne\projektsm\sm2024undersampling.cpp
+1737311348 source:c:\systemymultimedialne\projektsm\sm2024undersampling.cpp
 	"SM2024Undersampling.h"
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
 	"SM2024ColorModels.h"
 
-1731372858 source:c:\systemymultimedialne\projektsm\sm2024variables.cpp
+1737317708 source:c:\systemymultimedialne\projektsm\sm2024variables.cpp
 	"SM2024Variables.h"
+	<SDL2/SDL.h>
 
 1731925445 source:c:\systemymultimedialne\projektsm\sm2024colorfiltering.cpp
 	<SDL2/SDL.h>
@@ -3535,15 +3549,21 @@
 	"SM2024Variables.h"
 	"SM2024CoreFunctions.h"
 
-1731925371 c:\systemymultimedialne\projektsm\sm2024colorfiltering.h
+1737304974 c:\systemymultimedialne\projektsm\sm2024colorfiltering.h
 
-1732623672 c:\systemymultimedialne\projektsm\sm2024compression.h
+1737304974 c:\systemymultimedialne\projektsm\sm2024compression.h
+	<SDL2/SDL.h>
 
-1732624595 source:c:\systemymultimedialne\projektsm\sm2024compression.cpp
+1737304974 source:c:\systemymultimedialne\projektsm\sm2024compression.cpp
 	"SM2024Compression.h"
 	"SM2024Variables.h"
 	<iostream>
 	<fstream>
+	<vector>
+	"SM2024HelperFunctions.h"
+	"SM2024KeyFunctions.h"
+	"SM2024Variables.h"
+	"SM2024CoreFunctions.h"
 
 1735499144 source:g:\github\projektsm\sm2024bitconversion.cpp
 	<math.h>
@@ -4063,4 +4083,18 @@
 1735499144 g:\github\projektsm\sm2024dithering.h
 
 1735499144 g:\github\projektsm\sm2024colorfiltering.h
+
+1737322533 c:\systemymultimedialne\projektsm\sm2024dct.h
+	<SDL2/SDL.h>
+
+1737321798 source:c:\systemymultimedialne\projektsm\sm2024dct.cpp
+	"SM2024DCT.h"
+	<iostream>
+	<SDL2/SDL.h>
+	<iomanip>
+	<math.h>
+	<vector>
+	<fstream>
+	"SM2024Variables.h"
+	"SM2024CoreFunctions.h"
 

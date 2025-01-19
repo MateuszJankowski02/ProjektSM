@@ -19,5 +19,6 @@ void FunkcjaI();
 void FunkcjaZ();
 void FunkcjaX();
 void FunkcjaC();
+void FunkcjaV();
 
 #endif // SM2024KEYFUNCTIONS_H_INCLUDED

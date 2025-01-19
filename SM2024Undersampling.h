@@ -5,7 +5,7 @@ void podprobkowanieYIQ(int dx, int dy);
 
 void podprobkowanieYCbCr(int dx, int dy);
 
-void podprobkowanieYUV(int dx, int dy);
+void podprobkowanieYUV();
 
 void podprobkowanieHSL(int dx, int dy);
 
